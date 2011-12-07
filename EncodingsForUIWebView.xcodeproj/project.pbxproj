@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7D727784148F5B7D00CDAD88 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D727783148F5B7D00CDAD88 /* UIKit.framework */; };
+		7D727786148F5B7D00CDAD88 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D727785148F5B7D00CDAD88 /* Foundation.framework */; };
+		7D727788148F5B7D00CDAD88 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D727787148F5B7D00CDAD88 /* CoreGraphics.framework */; };
+		7D72778E148F5B7D00CDAD88 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7D72778C148F5B7D00CDAD88 /* InfoPlist.strings */; };
+		7D727790148F5B7D00CDAD88 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D72778F148F5B7D00CDAD88 /* main.m */; };
+		7D727794148F5B7D00CDAD88 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D727793148F5B7D00CDAD88 /* AppDelegate.m */; };
+		7D727797148F5B7D00CDAD88 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D727795148F5B7D00CDAD88 /* MainStoryboard.storyboard */; };
+		7D72779A148F5B7D00CDAD88 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D727799148F5B7D00CDAD88 /* ViewController.m */; };
+		7D7277A2148F5B7D00CDAD88 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D7277A1148F5B7D00CDAD88 /* SenTestingKit.framework */; };
+		7D7277A3148F5B7D00CDAD88 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D727783148F5B7D00CDAD88 /* UIKit.framework */; };
+		7D7277A4148F5B7D00CDAD88 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D727785148F5B7D00CDAD88 /* Foundation.framework */; };
+		7D7277AC148F5B7D00CDAD88 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7D7277AA148F5B7D00CDAD88 /* InfoPlist.strings */; };
+		7D7277AF148F5B7D00CDAD88 /* EncodingsForUIWebViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D7277AE148F5B7D00CDAD88 /* EncodingsForUIWebViewTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7D7277A5148F5B7D00CDAD88 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7D727776148F5B7D00CDAD88 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D72777E148F5B7D00CDAD88;
+			remoteInfo = EncodingsForUIWebView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7D72777F148F5B7D00CDAD88 /* EncodingsForUIWebView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EncodingsForUIWebView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D727783148F5B7D00CDAD88 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7D727785148F5B7D00CDAD88 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7D727787148F5B7D00CDAD88 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7D72778B148F5B7D00CDAD88 /* EncodingsForUIWebView-Info.plist */ = {isa = PBXFileReference; path = "EncodingsForUIWebView-Info.plist"; sourceTree = "<group>"; };
+		7D72778D148F5B7D00CDAD88 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7D72778F148F5B7D00CDAD88 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7D727791148F5B7D00CDAD88 /* EncodingsForUIWebView-Prefix.pch */ = {isa = PBXFileReference; path = "EncodingsForUIWebView-Prefix.pch"; sourceTree = "<group>"; };
+		7D727792148F5B7D00CDAD88 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		7D727793148F5B7D00CDAD88 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7D727796148F5B7D00CDAD88 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		7D727798148F5B7D00CDAD88 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		7D727799148F5B7D00CDAD88 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7D7277A0148F5B7D00CDAD88 /* EncodingsForUIWebViewTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EncodingsForUIWebViewTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D7277A1148F5B7D00CDAD88 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		7D7277A9148F5B7D00CDAD88 /* EncodingsForUIWebViewTests-Info.plist */ = {isa = PBXFileReference; path = "EncodingsForUIWebViewTests-Info.plist"; sourceTree = "<group>"; };
+		7D7277AB148F5B7D00CDAD88 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7D7277AD148F5B7D00CDAD88 /* EncodingsForUIWebViewTests.h */ = {isa = PBXFileReference; path = EncodingsForUIWebViewTests.h; sourceTree = "<group>"; };
+		7D7277AE148F5B7D00CDAD88 /* EncodingsForUIWebViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EncodingsForUIWebViewTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7D72777C148F5B7D00CDAD88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D727784148F5B7D00CDAD88 /* UIKit.framework in Frameworks */,
+				7D727786148F5B7D00CDAD88 /* Foundation.framework in Frameworks */,
+				7D727788148F5B7D00CDAD88 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D72779C148F5B7D00CDAD88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D7277A2148F5B7D00CDAD88 /* SenTestingKit.framework in Frameworks */,
+				7D7277A3148F5B7D00CDAD88 /* UIKit.framework in Frameworks */,
+				7D7277A4148F5B7D00CDAD88 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7D727774148F5B7D00CDAD88 = {
+			isa = PBXGroup;
+			children = (
+				7D727789148F5B7D00CDAD88 /* EncodingsForUIWebView */,
+				7D7277A7148F5B7D00CDAD88 /* EncodingsForUIWebViewTests */,
+				7D727782148F5B7D00CDAD88 /* Frameworks */,
+				7D727780148F5B7D00CDAD88 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7D727780148F5B7D00CDAD88 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7D72777F148F5B7D00CDAD88 /* EncodingsForUIWebView.app */,
+				7D7277A0148F5B7D00CDAD88 /* EncodingsForUIWebViewTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7D727782148F5B7D00CDAD88 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7D727783148F5B7D00CDAD88 /* UIKit.framework */,
+				7D727785148F5B7D00CDAD88 /* Foundation.framework */,
+				7D727787148F5B7D00CDAD88 /* CoreGraphics.framework */,
+				7D7277A1148F5B7D00CDAD88 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7D727789148F5B7D00CDAD88 /* EncodingsForUIWebView */ = {
+			isa = PBXGroup;
+			children = (
+				7D727792148F5B7D00CDAD88 /* AppDelegate.h */,
+				7D727793148F5B7D00CDAD88 /* AppDelegate.m */,
+				7D727795148F5B7D00CDAD88 /* MainStoryboard.storyboard */,
+				7D727798148F5B7D00CDAD88 /* ViewController.h */,
+				7D727799148F5B7D00CDAD88 /* ViewController.m */,
+				7D72778A148F5B7D00CDAD88 /* Supporting Files */,
+			);
+			path = EncodingsForUIWebView;
+			sourceTree = "<group>";
+		};
+		7D72778A148F5B7D00CDAD88 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7D72778B148F5B7D00CDAD88 /* EncodingsForUIWebView-Info.plist */,
+				7D72778C148F5B7D00CDAD88 /* InfoPlist.strings */,
+				7D72778F148F5B7D00CDAD88 /* main.m */,
+				7D727791148F5B7D00CDAD88 /* EncodingsForUIWebView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7D7277A7148F5B7D00CDAD88 /* EncodingsForUIWebViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				7D7277AD148F5B7D00CDAD88 /* EncodingsForUIWebViewTests.h */,
+				7D7277AE148F5B7D00CDAD88 /* EncodingsForUIWebViewTests.m */,
+				7D7277A8148F5B7D00CDAD88 /* Supporting Files */,
+			);
+			path = EncodingsForUIWebViewTests;
+			sourceTree = "<group>";
+		};
+		7D7277A8148F5B7D00CDAD88 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7D7277A9148F5B7D00CDAD88 /* EncodingsForUIWebViewTests-Info.plist */,
+				7D7277AA148F5B7D00CDAD88 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7D72777E148F5B7D00CDAD88 /* EncodingsForUIWebView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D7277B2148F5B7D00CDAD88 /* Build configuration list for PBXNativeTarget "EncodingsForUIWebView" */;
+			buildPhases = (
+				7D72777B148F5B7D00CDAD88 /* Sources */,
+				7D72777C148F5B7D00CDAD88 /* Frameworks */,
+				7D72777D148F5B7D00CDAD88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EncodingsForUIWebView;
+			productName = EncodingsForUIWebView;
+			productReference = 7D72777F148F5B7D00CDAD88 /* EncodingsForUIWebView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7D72779F148F5B7D00CDAD88 /* EncodingsForUIWebViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D7277B5148F5B7D00CDAD88 /* Build configuration list for PBXNativeTarget "EncodingsForUIWebViewTests" */;
+			buildPhases = (
+				7D72779B148F5B7D00CDAD88 /* Sources */,
+				7D72779C148F5B7D00CDAD88 /* Frameworks */,
+				7D72779D148F5B7D00CDAD88 /* Resources */,
+				7D72779E148F5B7D00CDAD88 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7D7277A6148F5B7D00CDAD88 /* PBXTargetDependency */,
+			);
+			name = EncodingsForUIWebViewTests;
+			productName = EncodingsForUIWebViewTests;
+			productReference = 7D7277A0148F5B7D00CDAD88 /* EncodingsForUIWebViewTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7D727776148F5B7D00CDAD88 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Masaru Sakai";
+			};
+			buildConfigurationList = 7D727779148F5B7D00CDAD88 /* Build configuration list for PBXProject "EncodingsForUIWebView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7D727774148F5B7D00CDAD88;
+			productRefGroup = 7D727780148F5B7D00CDAD88 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7D72777E148F5B7D00CDAD88 /* EncodingsForUIWebView */,
+				7D72779F148F5B7D00CDAD88 /* EncodingsForUIWebViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7D72777D148F5B7D00CDAD88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D72778E148F5B7D00CDAD88 /* InfoPlist.strings in Resources */,
+				7D727797148F5B7D00CDAD88 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D72779D148F5B7D00CDAD88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D7277AC148F5B7D00CDAD88 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7D72779E148F5B7D00CDAD88 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7D72777B148F5B7D00CDAD88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D727790148F5B7D00CDAD88 /* main.m in Sources */,
+				7D727794148F5B7D00CDAD88 /* AppDelegate.m in Sources */,
+				7D72779A148F5B7D00CDAD88 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D72779B148F5B7D00CDAD88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D7277AF148F5B7D00CDAD88 /* EncodingsForUIWebViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7D7277A6148F5B7D00CDAD88 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7D72777E148F5B7D00CDAD88 /* EncodingsForUIWebView */;
+			targetProxy = 7D7277A5148F5B7D00CDAD88 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7D72778C148F5B7D00CDAD88 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D72778D148F5B7D00CDAD88 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7D727795148F5B7D00CDAD88 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D727796148F5B7D00CDAD88 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		7D7277AA148F5B7D00CDAD88 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D7277AB148F5B7D00CDAD88 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7D7277B0148F5B7D00CDAD88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7D7277B1148F5B7D00CDAD88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7D7277B3148F5B7D00CDAD88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EncodingsForUIWebView/EncodingsForUIWebView-Prefix.pch";
+				INFOPLIST_FILE = "EncodingsForUIWebView/EncodingsForUIWebView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7D7277B4148F5B7D00CDAD88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EncodingsForUIWebView/EncodingsForUIWebView-Prefix.pch";
+				INFOPLIST_FILE = "EncodingsForUIWebView/EncodingsForUIWebView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		7D7277B6148F5B7D00CDAD88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EncodingsForUIWebView.app/EncodingsForUIWebView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EncodingsForUIWebView/EncodingsForUIWebView-Prefix.pch";
+				INFOPLIST_FILE = "EncodingsForUIWebViewTests/EncodingsForUIWebViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		7D7277B7148F5B7D00CDAD88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EncodingsForUIWebView.app/EncodingsForUIWebView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EncodingsForUIWebView/EncodingsForUIWebView-Prefix.pch";
+				INFOPLIST_FILE = "EncodingsForUIWebViewTests/EncodingsForUIWebViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7D727779148F5B7D00CDAD88 /* Build configuration list for PBXProject "EncodingsForUIWebView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D7277B0148F5B7D00CDAD88 /* Debug */,
+				7D7277B1148F5B7D00CDAD88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D7277B2148F5B7D00CDAD88 /* Build configuration list for PBXNativeTarget "EncodingsForUIWebView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D7277B3148F5B7D00CDAD88 /* Debug */,
+				7D7277B4148F5B7D00CDAD88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7D7277B5148F5B7D00CDAD88 /* Build configuration list for PBXNativeTarget "EncodingsForUIWebViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D7277B6148F5B7D00CDAD88 /* Debug */,
+				7D7277B7148F5B7D00CDAD88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7D727776148F5B7D00CDAD88 /* Project object */;
+}

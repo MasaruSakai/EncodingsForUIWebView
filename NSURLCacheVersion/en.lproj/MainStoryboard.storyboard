@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="1.0" toolsVersion="1906" systemVersion="11A511" targetRuntime="iOS.CocoaTouch" nextObjectID="6" propertyAccessControl="none" initialViewController="2">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="1.0" toolsVersion="1938" systemVersion="11C74" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="2">
     <dependencies>
         <development defaultVersion="4200" identifier="xcode"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="902"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="933"/>
     </dependencies>
     <scenes>
         <scene sceneID="5">
@@ -12,9 +12,50 @@
                     <view key="view" contentMode="scaleToFill" id="3">
                         <rect key="frame" x="0.0" y="20" width="320" height="460"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <subviews/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" scalesPageToFit="YES" id="2Pl-4F-Am8">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="416"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </webView>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="BbC-ST-Mpt">
+                                <rect key="frame" x="0.0" y="416" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <items>
+                                    <barButtonItem title="戻る" id="JXo-CE-pY2">
+                                        <connections>
+                                            <action selector="goBack" destination="2Pl-4F-Am8" id="sss-ee-Ei2"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="進む" id="7c1-FA-qpj">
+                                        <connections>
+                                            <action selector="goForward" destination="2Pl-4F-Am8" id="6ZJ-nn-L3G"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="00b-7A-Ffk"/>
+                                    <barButtonItem title="文字コード" id="1Er-gq-pss">
+                                        <connections>
+                                            <action selector="selectEncoding:" destination="2" id="Vt8-fx-srX"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem systemItem="stop" id="Pec-df-sBR">
+                                        <connections>
+                                            <action selector="stopLoading" destination="2Pl-4F-Am8" id="yoJ-ZH-G7T"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem systemItem="refresh" id="Mu1-SD-TxW">
+                                        <connections>
+                                            <action selector="reloadWebView:" destination="2" id="6In-xh-eWZ"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="_webView" destination="2Pl-4F-Am8" id="A3t-2L-wbV"/>
+                    </connections>
                 </viewController>
             </objects>
         </scene>

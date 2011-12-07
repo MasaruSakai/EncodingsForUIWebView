@@ -36,12 +36,10 @@
         return cacheResponse;
     }
     
-    //
+    // 同期でHTMLファイルを取得
     NSURL *url = [NSURL URLWithString:[[request URL] absoluteString]];
     
     ASIHTTPRequest *asiRequest = [ASIHTTPRequest requestWithURL:url];
-    
-    
     [asiRequest setUserAgent:self.userAgent];
     [asiRequest startSynchronous];
     
@@ -56,12 +54,11 @@
     }
     NSLog(@"contentType : %@", contentType);
     
+    // Content-Typeがtext/htmlならcacheResponseを作り直す
     if ([contentType isEqualToString:@"text/html"]) {
         
         NSURLResponse* response = [[NSURLResponse alloc] initWithURL:request.URL MIMEType:contentType expectedContentLength:[[asiRequest responseData] length] textEncodingName:self.encoding];
         cacheResponse = [[NSCachedURLResponse alloc] initWithResponse:response data:[asiRequest responseData]];
-        
-        
     }
 
     

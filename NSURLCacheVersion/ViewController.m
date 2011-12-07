@@ -35,7 +35,7 @@
     [self setCustomCache];
     
     // 読み込み開始
-    NSURL *url = [NSURL URLWithString:@"http://www.google.com"];
+    NSURL *url = [NSURL URLWithString:@"http://www.yahoo.co.jp"];
     NSURLRequest *request = [NSURLRequest requestWithURL:url];
     [self.webView loadRequest:request];
 }

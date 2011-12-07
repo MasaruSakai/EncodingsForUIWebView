@@ -32,7 +32,7 @@
     appDelegate.encoding = @"AUTO";
     appDelegate.userAgent = [self.webView stringByEvaluatingJavaScriptFromString:@"navigator.userAgent"];
     
-    NSURL *url = [NSURL URLWithString:@"http://www.google.com"];
+    NSURL *url = [NSURL URLWithString:@"http://www.yahoo.co.jp"];
     NSURLRequest *request = [NSURLRequest requestWithURL:url];
     
     [self.webView loadRequest:request];

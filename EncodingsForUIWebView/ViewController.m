@@ -11,7 +11,6 @@
 
 @implementation ViewController
 @synthesize webView = _webView;
-@synthesize encodingsSheet = _encodingsSheet;
 
 - (void)didReceiveMemoryWarning
 {
@@ -110,10 +109,9 @@
 - (IBAction)selectEncoding:(id)sender
 {
 	NSLog(@"%s", __func__);
-    if (!self.encodingsSheet) {
-        self.encodingsSheet = [[UIActionSheet alloc] initWithTitle:@"文字コード" delegate:self cancelButtonTitle:@"キャンセル" destructiveButtonTitle:nil otherButtonTitles:@"AUTO", @"UTF-8", @"SJIS", @"EUC-JP", nil];
-    }
-    [self.encodingsSheet showInView:self.webView];
+    UIActionSheet *encodingsSheet = [[UIActionSheet alloc] initWithTitle:@"文字コード" delegate:self cancelButtonTitle:@"キャンセル" destructiveButtonTitle:nil otherButtonTitles:@"AUTO", @"UTF-8", @"SJIS", @"EUC-JP", nil];
+    
+    [encodingsSheet showInView:self.webView];
 }
 
 

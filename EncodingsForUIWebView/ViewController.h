@@ -11,10 +11,8 @@
 @interface ViewController : UIViewController <UIWebViewDelegate, UIActionSheetDelegate>
 {
     __weak IBOutlet UIWebView *_webView;
-    UIActionSheet *_encodingsSheet;
 }
 @property(weak, nonatomic) UIWebView *webView;
-@property(strong, nonatomic) UIActionSheet *encodingsSheet;
 
 - (IBAction)selectEncoding:(id)sender;
 @end

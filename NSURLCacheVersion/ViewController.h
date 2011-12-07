@@ -11,12 +11,10 @@
 @interface ViewController : UIViewController <UIWebViewDelegate, UIActionSheetDelegate>
 {
     __weak IBOutlet UIWebView *_webView;
-    UIActionSheet *_encodingsSheet;
     
     NSString *_encoding;
 }
 @property (weak, nonatomic) UIWebView *webView;
-@property(strong, nonatomic) UIActionSheet *encodingsSheet;
 @property (strong, nonatomic) NSString *encoding;
 
 - (void)setCustomCache;

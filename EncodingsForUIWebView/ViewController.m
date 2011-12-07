@@ -36,11 +36,6 @@
     NSURL *url = [NSURL URLWithString:@"http://www.google.com"];
     NSURLRequest *request = [NSURLRequest requestWithURL:url];
     
-//    NSURLResponse *response;
-//    NSError *err;
-//    NSData *result = [NSURLConnection sendSynchronousRequest:request returningResponse:&response error:&err];
-//    [self.webView loadData:result MIMEType:@"text/html" textEncodingName:@"sjis" baseURL:nil];
-    
     [self.webView loadRequest:request];
     
 }
@@ -90,8 +85,6 @@
 -(BOOL)webView:(UIWebView *)webView shouldStartLoadWithRequest:(NSURLRequest *)request navigationType:(UIWebViewNavigationType)navigationType
 {
 	NSLog(@"%s", __func__);
-    NSMutableURLRequest *req = (NSMutableURLRequest *)request;
-    [req addValue:@"EUC-JP" forHTTPHeaderField:@"SpecialEncoding"];
     return YES;
 }
 

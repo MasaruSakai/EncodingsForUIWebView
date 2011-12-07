@@ -1,8 +1,8 @@
 //
 //  AppDelegate.m
-//  EncodingsForUIWebView
+//  NSURLCacheVersion
 //
-//  Created by Masaru Sakai on 11/12/06.
+//  Created by Masaru Sakai on 11/12/07.
 //  Copyright (c) 2011年 Masaru Sakai. All rights reserved.
 //
 
@@ -11,8 +11,6 @@
 @implementation AppDelegate
 
 @synthesize window = _window;
-@synthesize encoding = _encoding;
-@synthesize userAgent = _userAgent;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {

@@ -28,6 +28,7 @@
     if ([pathExtension caseInsensitiveCompare:@"css"] == NSOrderedSame ||
         [pathExtension caseInsensitiveCompare:@"js"] == NSOrderedSame ||
         [pathExtension caseInsensitiveCompare:@"jpg"] == NSOrderedSame ||
+        [pathExtension caseInsensitiveCompare:@"jpeg"] == NSOrderedSame ||
         [pathExtension caseInsensitiveCompare:@"png"] == NSOrderedSame ||
         [pathExtension caseInsensitiveCompare:@"gif"] == NSOrderedSame)
     {

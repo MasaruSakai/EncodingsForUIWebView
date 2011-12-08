@@ -21,6 +21,10 @@
 }
 
 #pragma mark - View lifecycle
+- (void)dealloc
+{
+    self.webView.delegate = nil;
+}
 
 - (void)viewDidLoad
 {
@@ -42,7 +46,8 @@
 
 - (void)viewDidUnload
 {
-    _webView = nil;
+    self.webView.delegate = nil;
+    self.webView = nil;
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
